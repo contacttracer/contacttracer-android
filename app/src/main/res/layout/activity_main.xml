@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context=".MainActivity">
+	
+	<com.google.android.material.appbar.AppBarLayout
+		android:id="@+id/app_bar"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:theme="@style/ToolBarStyle"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintBottom_toTopOf="@id/view_pager">
+		
+		<androidx.appcompat.widget.Toolbar
+			android:id="@+id/toolbar"
+			android:layout_width="match_parent"
+			android:layout_height="?attr/actionBarSize"
+			android:background="?attr/colorPrimary"
+			app:popupTheme="@style/AppTheme.PopupOverlay" />
+	
+	</com.google.android.material.appbar.AppBarLayout>
+	
+	<com.dawsoftware.contacttracker.ui.views.CustomViewPager
+		android:id="@+id/view_pager"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintBottom_toTopOf="@id/bottom_panel"
+		app:layout_constraintTop_toBottomOf="@id/app_bar"/>
+	
+	<androidx.constraintlayout.widget.ConstraintLayout
+		android:id="@+id/bottom_panel"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintTop_toBottomOf="@id/view_pager">
+		
+		<TextView
+			android:id="@+id/cases_button"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:paddingTop="8dp"
+			android:paddingBottom="8dp"
+			android:text="@string/button_infected_contacts"
+			android:drawableTop="@drawable/ic_people_outline_black_24dp"
+			android:gravity="center"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintBottom_toBottomOf="parent"
+			app:layout_constraintEnd_toStartOf="@id/statistics_button"/>
+		
+		<ImageView
+			android:id="@+id/infected_contacts_badge"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="@drawable/badge_drawable"
+			android:visibility="invisible"
+			app:layout_constraintTop_toTopOf="@id/cases_button"
+			app:layout_constraintStart_toStartOf="@id/cases_button"
+			app:layout_constraintEnd_toEndOf="@id/cases_button"
+			app:layout_constraintBottom_toBottomOf="@id/cases_button"
+			app:layout_constraintVertical_bias="0.18"
+			app:layout_constraintHorizontal_bias="0.55"
+			tools:visibility="visible"/>
+		
+		<TextView
+			android:id="@+id/statistics_button"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:paddingTop="8dp"
+			android:paddingBottom="8dp"
+			android:text="@string/button_statistics"
+			android:drawableTop="@drawable/ic_statistics"
+			android:gravity="center"
+			app:layout_constraintStart_toEndOf="@+id/cases_button"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintEnd_toStartOf="@id/health_button"
+			app:layout_constraintBottom_toBottomOf="parent"/>
+		
+		<TextView
+			android:id="@+id/health_button"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:paddingTop="8dp"
+			android:paddingBottom="8dp"
+			android:text="@string/button_contact_tracing"
+			android:drawableTop="@drawable/ic_heart_outline"
+			android:gravity="center"
+			app:layout_constraintStart_toEndOf="@id/statistics_button"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintBottom_toBottomOf="parent"/>
+		
+	
+	</androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

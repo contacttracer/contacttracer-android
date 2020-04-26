@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+	<string name="app_name">Seguimiento de los contactos</string>
+	
+	<string name="attention_string">Atención!</string>
+	<string name="no_data">Sin datos</string>
+	
+	<string name="button_send">Enviar</string>
+	<string name="button_statistics">Estadísticas mundiales</string>
+	<string name="button_contact_tracing">Seguimiento de los contactos</string>
+	<string name="button_infected_contacts">Contactos peligrosos</string>
+	<string name="survey_button">Completar la encuesta</string>
+	
+	<string name="tracing_button">Seguimiento</string>
+	<string name="tracing_anim">Seguimiento</string>
+	<string name="tracing_crowd_anim">Seguimiento</string>
+	
+	<string name="meters_short">20 m</string>
+	<string name="hours_short">h</string>
+	<string name="minutes_short">min</string>
+	<string name="days_short">d</string>
+	<string name="since_yesterday">hoy</string>
+	
+	<string name="status_card_infected_contacts">Contactos peligrosos</string>
+	<string name="status_card_now_near">Ahora está cerca</string>
+	<string name="status_card_last_time">La última vez:</string>
+	<string name="status_card_radius">En radio:</string>
+	
+	<string name="status_card_sick_title">¡Qué se mejore pronto!</string>
+	
+	<string name="status_unknown_title">De manera anónima, pero es obligatorio</string>
+	<string name="status_unknown_text">¡Solo podremos ganar juntos! Sabrá del estado de salud de otra gente al contar de manera anónima de su propio salud.</string>
+	<string name="status_unknown_counters">- -</string>
+	
+	<string name="status_unknown_survey_title">La encuesta anónima</string>
+	<string name="status_unknown_survey_text">¡Solo podremos ganar juntos! Sabrá del estado de salud de otra gente al contar de manera anónima de su propio salud.</string>
+	<string name="status_unknown_survey_explanation_title">Por favor, marca los síntomas que ha notado</string>
+	<string name="status_unknown_survey_explanation_checked">marca si se nota el síntoma siguiente</string>
+	<string name="status_unknown_survey_explanation_unchecked">no marca si no lo tiene</string>
+	
+	<string name="status_healthy_title">¡Está sano!</string>
+	<string name="status_healthy_text">Evite lugares con mucha gente. Use la máscara protectora y lavése las manos. Envíenos la información de su salud. Consulte a su médico inmediatamente si muestra los primeros síntomas de la enfermedad.</string>
+	
+	<string name="status_healthy_survey_title">¡Está sano!</string>
+	<string name="status_healthy_survey_text">Evite lugares con mucha gente. Use la máscara protectora y lavése las manos. Envíenos la información de su salud.</string>
+	<string name="status_healthy_survey_explanation_title">Por favor, marca los síntomas que ha notado</string>
+	<string name="status_healthy_survey_explanation_checked">marca si se nota el síntoma siguiente</string>
+	<string name="status_healthy_survey_explanation_unchecked">no marca si no lo tiene</string>
+	
+	<string name="status_potentially_sick_title">¡Se arriesga mucho!</string>
+	<string name="status_potentially_sick_text">Ha estado cerca de las personas que tienen síntomas de la enfermedad. Consulte a su médico de inmediato. Al visitar el médico, cuéntanos como se siente.</string>
+	
+	<string name="status_potentially_sick_survey_title">¡Se arriesga mucho!</string>
+	<string name="status_potentially_sick_survey_text">Ha estado cerca de las personas que tienen síntomas de la enfermedad. Consulte a su médico de inmediato. Al visitar el médico, cuéntanos como se siente.</string>
+	<string name="status_potentially_sick_survey_explanation_title">Marque si el test ha diagnosticado la enfermedad</string>
+	<string name="status_potentially_sick_survey_explanation_checked">marque si el test ha sido positivo</string>
+	<string name="status_potentially_sick_survey_explanation_unchecked">no marque si está sano</string>
+	<string name="status_potentially_sick_survey_warning">¡Atención! ¡El estado "Enfermo" solo se puede cambiar en 14 días!</string>
+	
+	<string name="status_sick_title">¡Se pondrá mejor pronto!</string>
+	<string name="status_sick_text">Todo estará bien. Recupérase pronto. Siga los consejos del médico. Por favor, déjanos saber cuando esté bien.</string>
+	
+	<string name="status_sick_survey_title">¡Se recuperará pronto!</string>
+	<string name="status_sick_survey_text">Todo estará bien. Recupérase pronto. Siga los consejos del médico. Por favor, déjanos saber cuando esté bien.</string>
+	<string name="status_sick_survey_explanation_title">Marque la casilla si el test confirme que esté bien</string>
+	<string name="status_sick_survey_explanation_checked">marque si el test confirme que esté bien</string>
+	<string name="status_sick_survey_explanation_unchecked">no marque si todavía está enfermo</string>
+	<string name="status_sick_survey_explanation_timer_title">Por favor, cuéntanos sobre su salud en:</string>
+	
+	<plurals name="days">
+		<item quantity="one">día</item>
+		<item quantity="other">días</item>
+	</plurals>
+	
+	<string name="fever_title">Fiebre</string>
+	<string name="fever_description">Tiene fiebre</string>
+	
+	<string name="cough_title">Tos</string>
+	<string name="cough_description">Tiene tos con flema</string>
+	
+	<string name="breath_title">Disnea</string>
+	<string name="breath_description">Disnea o dificultad para respirar</string>
+	
+	<string name="share_title">Compartir</string>
+	<string name="share_description">Comparte esta app. ¡Ganaremos juntos!</string>
+	
+	<string name="sick_status">Estoy enfermo/a</string>
+	<string name="sick_status_text">El test confirma que esté enfermo</string>
+	
+	<string name="well_status">¡Estoy bien!</string>
+	<string name="well_status_text">El test confirma que esté bien</string>
+	
+	<string name="network_error">Error de red. Inténtalo de nuevo.</string>
+	<string name="send_status_successfull">¡Gracias!</string>
+	
+	<string name="need_permissions">Para que la app funcione bien, activa los servicios necesarios en su dispositivo</string>
+	
+	<string name="onboarding_screen_1_title">Seguimiento de los contactos</string>
+	<string name="onboarding_screen_1_text">Los virus pueden transmitirse de persona a persona. Mucha gente pasa cerca de nosotros cada día. ¿Alguno de ellos ya está enfermo? ¿Cómo evitar contactos peligrosos? ¿Cómo mantener la vida y la salud?</string>
+	
+	<string name="onboarding_screen_2_title">Protege la vida y la salud</string>
+	<string name="onboarding_screen_2_text">Averigüe cuántas veces ha estado cerca de usted la gente con los síntomas de la enfermedad. Comprueba cuántas de esas personas están cerca de usted ahora mismo. Ayuda a parar la transmisión de la enfermedad.</string>
+	
+	<string name="onboarding_screen_3_title">Seguimiento continuo</string>
+	<string name="onboarding_screen_3_text">Si una persona con los síntomas de la enfermedad ha estado recientemente donde está usted ahora, la aplicación le informará enseguida.</string>
+	
+	<string name="onboarding_screen_4_title">La encuesta anónima</string>
+	<string name="onboarding_screen_4_text">Completa la encuesta anónima para detectar síntomas de la enfermedad y tener la oportunidad de mantenerse saludable y evitar contactos peligrosos. Diez segundos de su tiempo pueden salvar más de una vida.</string>
+	
+	<string name="onboarding_screen_5_title">¡Ganaremos solo juntos!</string>
+	<string name="onboarding_screen_5_text">Es necesario que todos compartan de manera anónima la información de su bienestar. Así los demás podrán protegerse, evitar contactos peligrosos o consultar a un médico a tiempo. Solo así, solo juntos pararemos la enfermedad.</string>
+	
+	<string name="onboarding_next_button">Siguiente</string>
+	<string name="onboarding_skip_button">Omitir</string>
+	<string name="onboarding_start_button">Empezar</string>
+	
+	<string name="intersections_list_status_infected">Riesgo mínimo</string>
+	<string name="intersections_list_status_sick">Alto riesgo</string>
+	
+	<string name="notification_infected_contacts_today">Contactos peligrosos hoy: </string>
+	<string name="notification_intersection_title">¡El riesgo de infección!</string>
+	<string name="notification_intersection_text">Cerca de usted hay gente con síntomas de enfermedad</string>
+	
+	<string name="notification_take_survey_title">Autocontrol activo</string>
+	<string name="notification_take_survey_text">Es hora de comprobar su bienestar</string>
+	
+	<string name="notification_start_tracing_title">Seguimiento de los contactos</string>
+	<string name="notification_start_tracing_text">Empieza a seguir los contactos peligrosos</string>
+	
+	<string name="card_risk_title">Riesgo</string>
+	
+	<string name="card_risk_unknown">- -</string>
+	<string name="card_risk_low">bajo</string>
+	<string name="card_risk_medium">medio</string>
+	<string name="card_risk_high">alto</string>
+	
+	<string name="card_crowd_title">Multitud</string>
+	
+	<string name="card_crowd_unknown">- -</string>
+	<string name="card_crowd_low">pocas gente</string>
+	<string name="card_crowd_medium">mucha gente</string>
+	<string name="card_crowd_high">gran multitud</string>
+	
+	<string name="card_no_infected_people_around">No hay personas con síntoma</string>
+	
+</resources>

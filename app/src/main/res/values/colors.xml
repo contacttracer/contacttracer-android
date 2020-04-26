@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="colorPrimary">#FFFFFF</color>
+	<color name="colorPrimaryDark">#C4CFD4</color>
+	<color name="colorAccent">#00B9E6</color>
+	
+	<color name="standard_white">#FFFFFF</color>
+	<color name="standard_black">#000000</color>
+	<color name="standard_red">#B80000</color>
+	<color name="standard_green">#009688</color>
+	
+	<color name="healthy_green">#159687</color>
+	<color name="infected_yellow">#fdb42b</color>
+	<color name="sick_red">#b7060f</color>
+	
+	<color name="unavailable_gray">#9DA6A9</color>
+	
+	<color name="default_icons_tint">#444444</color>
+	
+	<color name="status_unknown_background">#C4CFD4</color>
+	
+	<color name="status_healthy_background_start">#1cb6ac</color>
+	<color name="status_healthy_background_end">#159687</color>
+	
+	<color name="status_potentially_sick_background_start">#fece2f</color>
+	<color name="status_potentially_sick_background_end">#fdb42b</color>
+	
+	<color name="status_sick_background_start">#dd0a15</color>
+	<color name="status_sick_background_end">#b7060f</color>
+	
+	<color name="status_unconfirmed_area_start">#1db7ad</color>
+	<color name="status_unconfirmed_area_end">#159687</color>
+	
+	<color name="onboarding_text_color">#616161</color>
+	<color name="onboarding_inactive_indicator_color">#999999</color>
+</resources>

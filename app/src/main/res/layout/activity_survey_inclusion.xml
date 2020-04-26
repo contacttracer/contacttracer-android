@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/surveyFragment_container"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:paddingStart="24dp"
+	android:paddingEnd="24dp">
+	
+	<androidx.constraintlayout.widget.ConstraintLayout
+		android:id="@+id/survey_card"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:padding="8dp"
+		android:layout_marginTop="16dp"
+		android:background="@drawable/background_unknown"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintBottom_toTopOf="@id/symptoms_recycler_view"
+		app:layout_constraintVertical_chainStyle="packed"
+		app:layout_constraintVertical_bias="0.0">
+		
+		<ImageView
+			android:id="@+id/survey_card_icon"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			app:layout_constraintTop_toTopOf="parent"
+			app:layout_constraintStart_toStartOf="parent"
+			tools:src="@drawable/ic_sentiment_satisfied_black_24dp" />
+		
+		<TextView
+			android:id="@+id/survey_card_title"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="4dp"
+			android:textAppearance="@style/TextAppearance.Survey.Title"
+			android:text="@string/status_unknown_survey_title"
+			app:layout_constraintTop_toTopOf="@id/survey_card_icon"
+			app:layout_constraintStart_toEndOf="@id/survey_card_icon"
+			app:layout_constraintBottom_toBottomOf="@id/survey_card_icon"
+			app:layout_constraintEnd_toEndOf="parent" />
+		
+		<TextView
+			android:id="@+id/survey_card_text"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="4dp"
+			android:textAppearance="@style/TextAppearance.Survey.Default"
+			android:text="@string/status_unknown_survey_text"
+			app:layout_constraintTop_toBottomOf="@id/survey_card_icon"
+			app:layout_constraintStart_toStartOf="@id/survey_card_icon"
+			app:layout_constraintEnd_toEndOf="parent" />
+		
+		<TextView
+			android:id="@+id/survey_card_explanation_title"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="8dp"
+			android:textAppearance="@style/TextAppearance.Survey.Default"
+			android:text="@string/status_unknown_survey_explanation_title"
+			app:layout_constraintTop_toBottomOf="@id/survey_card_text"
+			app:layout_constraintStart_toStartOf="@id/survey_card_icon"
+			app:layout_constraintEnd_toEndOf="parent" />
+		
+		<ImageView
+			android:id="@+id/survey_card_checked_icon"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="4dp"
+			android:layout_marginStart="8dp"
+			app:layout_constraintTop_toBottomOf="@id/survey_card_explanation_title"
+			app:layout_constraintStart_toStartOf="parent"
+			app:srcCompat="@drawable/ic_check_box_black_24dp" />
+		
+		<TextView
+			android:id="@+id/survey_card_explanation_checked"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:paddingStart="4dp"
+			android:gravity="center_vertical"
+			android:textAppearance="@style/TextAppearance.Survey.Default"
+			android:text="@string/status_unknown_survey_explanation_checked"
+			android:includeFontPadding="false"
+			app:layout_constraintTop_toTopOf="@id/survey_card_checked_icon"
+			app:layout_constraintStart_toEndOf="@id/survey_card_checked_icon"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintBottom_toBottomOf="@id/survey_card_checked_icon" />
+		
+		<ImageView
+			android:id="@+id/survey_card_unchecked_icon"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="4dp"
+			android:layout_marginStart="8dp"
+			app:layout_constraintTop_toBottomOf="@id/survey_card_checked_icon"
+			app:layout_constraintStart_toStartOf="parent"
+			app:srcCompat="@drawable/ic_check_box_outline_blank_black_24dp" />
+		
+		<TextView
+			android:id="@+id/survey_card_explanation_unchecked"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:paddingStart="4dp"
+			android:gravity="center_vertical"
+			android:textAppearance="@style/TextAppearance.Survey.Default"
+			android:text="@string/status_unknown_survey_explanation_unchecked"
+			android:includeFontPadding="false"
+			app:layout_constraintTop_toTopOf="@id/survey_card_unchecked_icon"
+			app:layout_constraintStart_toEndOf="@id/survey_card_unchecked_icon"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintBottom_toBottomOf="@id/survey_card_unchecked_icon" />
+		
+		<TextView
+			android:id="@+id/survey_card_days_number"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="4dp"
+			android:paddingEnd="2dp"
+			android:gravity="center_vertical|end"
+			android:textAppearance="@style/TextAppearance.Survey.DaysNumber"
+			android:includeFontPadding="false"
+			app:layout_constraintTop_toBottomOf="@id/survey_card_explanation_title"
+			app:layout_constraintStart_toStartOf="parent"
+			app:layout_constraintEnd_toStartOf="@+id/survey_card_days_left"
+			app:layout_constraintHorizontal_chainStyle="packed"
+			tools:text="14"
+			tools:visibility="gone" />
+		
+		<TextView
+			android:id="@+id/survey_card_days_left"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingStart="2dp"
+			android:gravity="center_vertical"
+			android:textAppearance="@style/TextAppearance.Survey.Title"
+			android:includeFontPadding="false"
+			app:layout_constraintTop_toTopOf="@+id/survey_card_days_number"
+			app:layout_constraintStart_toEndOf="@+id/survey_card_days_number"
+			app:layout_constraintEnd_toEndOf="parent"
+			app:layout_constraintBottom_toBottomOf="@+id/survey_card_days_number"
+			app:layout_constraintVertical_bias="0.8"
+			tools:text="days"
+			tools:visibility="gone" />
+	
+	</androidx.constraintlayout.widget.ConstraintLayout>
+	
+	<TextView
+		android:id="@+id/survey_card_infected_warning"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:paddingStart="4dp"
+		android:paddingEnd="4dp"
+		android:layout_marginTop="16dp"
+		android:gravity="center_vertical"
+		android:textAppearance="@style/TextAppearance.Survey.Warning"
+		android:text="@string/status_potentially_sick_survey_warning"
+		android:includeFontPadding="false"
+		android:visibility="gone"
+		app:layout_constraintTop_toBottomOf="@id/survey_card"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintBottom_toTopOf="@id/symptoms_recycler_view"
+		tools:visibility="visible"/>
+	
+	<androidx.recyclerview.widget.RecyclerView
+		android:id="@+id/symptoms_recycler_view"
+		android:layout_width="0dp"
+		android:layout_height="0dp"
+		android:layout_marginTop="16dp"
+		app:layout_constraintTop_toBottomOf="@id/survey_card_infected_warning"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintBottom_toTopOf="@id/send_button"
+		app:layout_constrainedHeight="true"
+		tools:listitem="@layout/layout_symptom_item"/>
+	
+	<Button
+		android:id="@+id/send_button"
+		android:layout_width="160dp"
+		android:layout_height="48dp"
+		android:layout_marginTop="16dp"
+		android:layout_marginBottom="16dp"
+		android:text="@string/button_send"
+		android:textColor="@color/colorPrimary"
+		android:background="@drawable/ripple_button_drawable"
+		app:layout_constraintTop_toBottomOf="@id/symptoms_recycler_view"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintBottom_toBottomOf="parent"
+		app:layout_constraintVertical_bias="0.0"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

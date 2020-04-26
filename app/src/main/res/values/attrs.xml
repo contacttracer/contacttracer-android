@@ -1,0 +1,10 @@
+<resources>
+	<declare-styleable name="CustomScaleView">
+		<attr name="icon_default" format="integer" />
+		<attr name="icon_side_size" format="integer" />
+		<attr name="icon_fill_color" format="color" />
+		<attr name="elements_count" format="integer" />
+		<attr name="filled_elements_count" format="integer" />
+		<attr name="internal_padding" format="integer" />
+	</declare-styleable>
+</resources>

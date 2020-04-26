@@ -1,0 +1,148 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+	<string name="app_name">Отслеживание контактов</string>
+	
+	<string name="attention_string">Внимание!</string>
+	<string name="no_data">Нет данных</string>
+	
+	<string name="button_send">Отправить</string>
+	<string name="button_statistics">Мировая статистика</string>
+	<string name="button_contact_tracing">Отслеживание контактов</string>
+	<string name="button_infected_contacts">Опасные контакты</string>
+	<string name="survey_button">Пройти тест</string>
+	
+	<string name="tracing_button">Отслеживание</string>
+	<string name="tracing_anim">Анализ</string>
+	<string name="tracing_crowd_anim">Анализ</string>
+	
+	<string name="meters_short">20 м</string>
+	<string name="hours_short">ч</string>
+	<string name="minutes_short">мин</string>
+	<string name="days_short">д</string>
+	<string name="since_yesterday">сегодня</string>
+	
+	<string name="status_card_infected_contacts">Опасные контакты</string>
+	<string name="status_card_now_near">Сейчас рядом</string>
+	<string name="status_card_last_time">Последний:</string>
+	<string name="status_card_radius">В радиусе:</string>
+	
+	<string name="status_card_sick_title">Поправляйтесь!</string>
+	
+	<string name="status_unknown_title">Анонимно, но обязательно!</string>
+	<string name="status_unknown_text">Мы можем победить только вместе! Вы узнаете о здоровье других, если анонимно расскажете о своем. Одни правила для всех.</string>
+	<string name="status_unknown_counters">- -</string>
+	
+	<string name="status_unknown_survey_title">Анонимный тест</string>
+	<string name="status_unknown_survey_text">Мы можем победить только вместе! Вы узнаете о здоровье других, если анонимно расскажете о своем.</string>
+	<string name="status_unknown_survey_explanation_title">Пожалуйста, отметьте симптомы, которые вы заметили у себя</string>
+	<string name="status_unknown_survey_explanation_checked">отметьте если чувствуете указанный симптом</string>
+	<string name="status_unknown_survey_explanation_unchecked">не отмечайте, если вы этого не чувствуете</string>
+	
+	<string name="status_healthy_title">Вы здоровы!</string>
+	<string name="status_healthy_text">Избегайте людных мест. Используйте защитную маску и мойте руки. Отправьте нам информацию о своем здоровье. Немедленно обратитесь к врачу, если у вас появились первые признаки болезни.</string>
+	
+	<string name="status_healthy_survey_title">Вы здоровы!</string>
+	<string name="status_healthy_survey_text">Избегайте людных мест. Используйте защитную маску и мойте руки. Отправьте нам информацию о своем здоровье.</string>
+	<string name="status_healthy_survey_explanation_title">Пожалуйста, отметьте симптомы, которые вы заметили у себя</string>
+	<string name="status_healthy_survey_explanation_checked">отметьте если чувствуете указанный симптом</string>
+	<string name="status_healthy_survey_explanation_unchecked">не отмечайте, если вы этого не чувствуете</string>
+	
+	<string name="status_potentially_sick_title">Вы сильно рискуете!</string>
+	<string name="status_potentially_sick_text">Вы были рядом с людьми у которых есть симптомы болезни. Немедленно обратитесь к врачу. После посещения врача, расскажите нам, как вы себя чувствуете.</string>
+	
+	<string name="status_potentially_sick_survey_title">Вы сильно рискуете!</string>
+	<string name="status_potentially_sick_survey_text">Вы были рядом с людьми у которых есть симптомы болезни. Обратитесь к врачу и расскажите нам, как вы себя чувствуете.</string>
+	<string name="status_potentially_sick_survey_explanation_title">Если анализы подтвердили, что вы больны, поставьте галочку</string>
+	<string name="status_potentially_sick_survey_explanation_checked">отметьте, если анализы подтвердили, что вы больны</string>
+	<string name="status_potentially_sick_survey_explanation_unchecked">не отмечайте, если вы здоровы</string>
+	<string name="status_potentially_sick_survey_warning">Внимание! Статус «Больной» можно изменить только через 14 дней!</string>
+	
+	<string name="status_sick_title">Вы скоро поправитесь!</string>
+	<string name="status_sick_text">Все будет хорошо. Выздоравливайте скорее. Следуйте советам  врача. Пожалуйста дайте нам
+		знать, когда вы поправитесь.</string>
+	
+	<string name="status_sick_survey_title">Вы скоро поправитесь!</string>
+	<string name="status_sick_survey_text">Все будет хорошо. Выздоравливай скорее. Следуйте советам  врача. Пожалуйста дайте нам знать, когда вы поправитесь.</string>
+	<string name="status_sick_survey_explanation_title">Если анализы подтвердили, что вы здоровы, поставьте галочку</string>
+	<string name="status_sick_survey_explanation_checked">отметьте, если анализы подтвердили, что вы здоровы</string>
+	<string name="status_sick_survey_explanation_unchecked">не отмечайте, если вы все еще больны</string>
+	<string name="status_sick_survey_explanation_timer_title">Пожалуйста, расскажите о вашем здоровье через:</string>
+	
+	<plurals name="days">
+		<item quantity="one" tools:ignore="ImpliedQuantity">день</item>
+		<item quantity="few">дня</item>
+		<item quantity="many">дней</item>
+	</plurals>
+	
+	<string name="fever_title">Высокая температура</string>
+	<string name="fever_description">У вас высокая температура тела</string>
+	
+	<string name="cough_title">Кашель</string>
+	<string name="cough_description">Вы кашляете с мокротой</string>
+	
+	<string name="breath_title">Отдышка</string>
+	<string name="breath_description">Одышка и затрудненное дыхание</string>
+	
+	<string name="share_title">Поделиться</string>
+	<string name="share_description">Поделитесь этим приложением. Вместе мы победим</string>
+	
+	<string name="sick_status">Я болен</string>
+	<string name="sick_status_text">Анализы подтверждают, что вы больны</string>
+	
+	<string name="well_status">Я здоров!</string>
+	<string name="well_status_text">Анализы подтверждают, что вы здоровы</string>
+	
+	<string name="network_error">Ошибка сети. Попробуйте позже.</string>
+	<string name="send_status_successfull">Спасибо!</string>
+	
+	<string name="need_permissions">Что бы улучшить работу приложения, включите на устройстве необходимые сервисы</string>
+	
+	<string name="onboarding_screen_1_title">Отслеживание контактов</string>
+	<string name="onboarding_screen_1_text">Вирусы могут передаваться от человека к человеку. Мимо нас за день проходят сотни людей. Кто-то из них уже болен? Как избежать опасных контактов? Как сохранить жизнь и здоровье?</string>
+	
+	<string name="onboarding_screen_2_title">Сохраните жизнь и здоровье</string>
+	<string name="onboarding_screen_2_text">Узнайте сколько раз рядом с вами были люди с признаками заболевания. Отслеживайте сколько таких людей рядом с вами. Помогите остановить распространение болезни.</string>
+	
+	<string name="onboarding_screen_3_title">Непрерывное отслеживание</string>
+	<string name="onboarding_screen_3_text">Если там, где вы сейчас находитесь недавно был человек с признаками заболевания, то
+		приложение сразу уведомит вас об этом.</string>
+	
+	<string name="onboarding_screen_4_title">Анонимный тест</string>
+	<string name="onboarding_screen_4_text">Пройдите анонимный тест на наличие у вас симптомов заболевания и получите возможность остаться здоровым и избежать опасных контактов. Десять секунд вашего времени могут спасти не одну жизнь.</string>
+	
+	<string name="onboarding_screen_5_title">Мы победим только вместе</string>
+	<string name="onboarding_screen_5_text">Необходимо, чтобы каждый анонимно делился своим самочувствием. Тогда другие смогут обезопасить себя, избежать опасных контактов или вовремя обратиться к врачу. Только так, только вместе мы остановим болезнь.</string>
+	
+	<string name="onboarding_next_button">Далее</string>
+	<string name="onboarding_skip_button">Пропустить</string>
+	<string name="onboarding_start_button">Начать</string>
+	
+	<string name="intersections_list_status_infected">C низким риском</string>
+	<string name="intersections_list_status_sick">C высоким риском</string>
+	
+	<string name="notification_infected_contacts_today">Опасные контакты сегодня:</string>
+	<string name="notification_intersection_title">Риск заражения!</string>
+	<string name="notification_intersection_text">Рядом с вами находятся люди с плохим самочувствием</string>
+	
+	<string name="notification_take_survey_title">Активный самоконтроль</string>
+	<string name="notification_take_survey_text">Пора проверить свое самочувствие</string>
+	
+	<string name="notification_start_tracing_title">Отслеживание контактов</string>
+	<string name="notification_start_tracing_text">Начните отслеживание опасных контактов</string>
+	
+	<string name="card_risk_title">Риск</string>
+	
+	<string name="card_risk_unknown">- -</string>
+	<string name="card_risk_low">небольшой</string>
+	<string name="card_risk_medium">средний</string>
+	<string name="card_risk_high">высокий</string>
+	
+	<string name="card_crowd_title">Толпа</string>
+	
+	<string name="card_crowd_unknown">- -</string>
+	<string name="card_crowd_low">малолюдно</string>
+	<string name="card_crowd_medium">людно</string>
+	<string name="card_crowd_high">многолюдно</string>
+	
+	<string name="card_no_infected_people_around">Нет людей с симптомами</string>
+	
+</resources>

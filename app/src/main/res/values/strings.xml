@@ -1,0 +1,156 @@
+<resources>
+	<string name="app_name">Contact Tracer</string>
+	
+	<string name="attention_string">Attention!</string>
+	<string name="no_data">No data</string>
+	
+	<string name="button_send">Send</string>
+	<string name="button_statistics">World statistics</string>
+	<string name="button_contact_tracing">Contact tracing</string>
+	<string name="button_infected_contacts">Close contacts</string>
+	<string name="survey_button">Survey</string>
+	
+	<string name="tracing_button">Tracing</string>
+	<string name="tracing_anim">Tracing</string>
+	<string name="tracing_crowd_anim">Tracing</string>
+	
+	<string name="meters_short">20 m</string>
+	<string name="hours_short">hr</string>
+	<string name="minutes_short">min</string>
+	<string name="days_short">d</string>
+	<string name="since_yesterday">today</string>
+	
+	<string name="status_card_infected_contacts">Close contacts</string>
+	<string name="status_card_now_near">Now near</string>
+	<string name="status_card_last_time">Last time:</string>
+	<string name="status_card_radius">Radius:</string>
+	
+	<string name="status_card_sick_title">Get well soon!</string>
+	
+	<string name="status_unknown_title">Anonymous but required</string>
+	<string name="status_unknown_text">We can only win together! You will learn about the health of others if you anonymously
+		tell about yours. Оne rule for everyone.</string>
+	<string name="status_unknown_counters">- -</string>
+	
+	<string name="status_unknown_survey_title">Anonymous survey</string>
+	<string name="status_unknown_survey_text">We can only win together! You will learn about the health of others if you anonymously tell about yours.</string>
+	<string name="status_unknown_survey_explanation_title">Please mark the symptoms that you noticed in yourself</string>
+	<string name="status_unknown_survey_explanation_checked">mark if you feel something similar</string>
+	<string name="status_unknown_survey_explanation_unchecked">don\'t mark if you don\'t feel it</string>
+	
+	<string name="status_healthy_title">You are healthy!</string>
+	<string name="status_healthy_text">Avoid crowded places. Use a face shield and wash your hands. Send us your health information. See your doctor right away if you have the first signs of illness.</string>
+	
+	<string name="status_healthy_survey_title">You are healthy!</string>
+	<string name="status_healthy_survey_text">Avoid crowded places. Use a face shield and wash your hands. Send us your health information.</string>
+	<string name="status_healthy_survey_explanation_title">Please mark the symptoms that you noticed in yourself</string>
+	<string name="status_healthy_survey_explanation_checked">mark if you feel something similar</string>
+	<string name="status_healthy_survey_explanation_unchecked">don\'t mark if you don\'t feel it</string>
+	
+	<string name="status_potentially_sick_title">You\'re running the risk!</string>
+	<string name="status_potentially_sick_text">You have been close to people who have symptoms of the disease. Seek medical advice immediately. After visiting the doctor, tell us how you feel.</string>
+	
+	<string name="status_potentially_sick_survey_title">You\'re running the risk!</string>
+	<string name="status_potentially_sick_survey_text">You have been close to people who have symptoms of the disease. Seek
+		medical advice and tell us how you feel.</string>
+	<string name="status_potentially_sick_survey_explanation_title">If tests confirmed that you are sick check the box</string>
+	<string name="status_potentially_sick_survey_explanation_checked">mark if tests confirmed that you are sick</string>
+	<string name="status_potentially_sick_survey_explanation_unchecked">don\'t mark if you are healthy</string>
+	<string name="status_potentially_sick_survey_warning">Attention! The "Sick" status can be changed only after 14
+		days!</string>
+	
+	<string name="status_sick_title">You will get better!</string>
+	<string name="status_sick_text">Everything will be fine. Recover. Follow the advice of doctors. Let us
+		know when you are healthy.</string>
+	
+	<string name="status_sick_survey_title">You will get better!</string>
+	<string name="status_sick_survey_text">Everything will be fine. Recover Follow the advice of doctors. Let us know when you
+		are healthy.</string>
+	<string name="status_sick_survey_explanation_title">If tests confirmed that you are healthy check the box</string>
+	<string name="status_sick_survey_explanation_checked">mark if tests confirmed that you are healthy</string>
+	<string name="status_sick_survey_explanation_unchecked">don\'t mark if you are still sick</string>
+	<string name="status_sick_survey_explanation_timer_title">Please let us know about your health via:</string>
+	
+	<plurals name="days">
+		<item quantity="zero">days</item>
+		<item quantity="one">day</item>
+		<item quantity="other">days</item>
+	</plurals>
+	
+	<string name="fever_title">Fever</string>
+	<string name="fever_description">You have a high body temperature</string>
+	
+	<string name="cough_title">Cough</string>
+	<string name="cough_description">You cough with a sputum</string>
+	
+	<string name="breath_title">Shortness of breath</string>
+	<string name="breath_description">Shortness of breath and breathing difficulties</string>
+	
+	<string name="share_title">Share</string>
+	<string name="share_description">Share this app. Together we will win</string>
+	
+	<string name="sick_status">I\'m sick</string>
+	<string name="sick_status_text">Tests confirmed that you are sick</string>
+	
+	<string name="well_status">I\'m well</string>
+	<string name="well_status_text">Tests confirmed that you are healthy</string>
+	
+	<string name="network_error">Network error. Try again.</string>
+	<string name="send_status_successfull">Thank you!</string>
+	
+	<string name="need_permissions">For a better experience, turn on necessary services</string>
+	
+	<string name="onboarding_screen_1_title">Contact tracing</string>
+	<string name="onboarding_screen_1_text">The virus is transmitted from person to person. Hundreds of people pass us every day. Are any of them sick yet? How to avoid dangerous contacts? How to save life and health?</string>
+	
+	<string name="onboarding_screen_2_title">Save your life and health</string>
+	<string name="onboarding_screen_2_text">Find out how many times people with signs of the disease have been near you. Track
+		how many of these people are near you. Help stop the spread of the disease.</string>
+	
+	<string name="onboarding_screen_3_title">Continuous tracking</string>
+	<string name="onboarding_screen_3_text">If somewhere around you there is a person showing signs of disease, the app will
+		notify you.</string>
+	
+	<string name="onboarding_screen_4_title">Anonymous test</string>
+	<string name="onboarding_screen_4_text">Take an anonymous test for symptoms of the disease and get the opportunity to stay
+		healthy and avoid dangerous contacts. Ten seconds of your time can save more than one life.</string>
+	
+	<string name="onboarding_screen_5_title">We will only win together</string>
+	<string name="onboarding_screen_5_text">It is necessary for everyone to share their health anonymously. Then others will be
+		able to protect themselves, avoid dangerous contacts or consult with doctor in time. Only this way, only together, will we stop the disease.</string>
+	
+	<string name="onboarding_next_button">Next</string>
+	<string name="onboarding_skip_button">Skip</string>
+	<string name="onboarding_start_button">Start</string>
+	
+	<string name="intersections_list_status_infected">Low risk</string>
+	<string name="intersections_list_status_sick">High risk</string>
+	
+	<string name="notification_infected_contacts_today">Close contacts today: </string>
+	<string name="notification_intersection_title">Risk of infection!</string>
+	<string name="notification_intersection_text">Near you are people with poor health</string>
+	
+	<string name="notification_take_survey_title">Active self-control</string>
+	<string name="notification_take_survey_text">It\'s time to check your health</string>
+	
+	<string name="notification_start_tracing_title">Contact tracing</string>
+	<string name="notification_start_tracing_text">Start the tracing of close contacts</string>
+	
+	<string name="card_risk_title">Risk</string>
+	
+	<string name="card_risk_unknown">- -</string>
+	<string name="card_risk_low">low</string>
+	<string name="card_risk_medium">medium</string>
+	<string name="card_risk_high">high</string>
+	
+	<string name="card_crowd_title">Crowd</string>
+	
+	<string name="card_crowd_unknown">- -</string>
+	<string name="card_crowd_low">not crowded</string>
+	<string name="card_crowd_medium">crowded</string>
+	<string name="card_crowd_high">very crowded</string>
+	
+	<string name="card_no_infected_people_around">No people with symptoms</string>
+	
+	<string name="debug_menu_item" translatable="false">debug_menu_item</string>
+</resources>
